@@ -2,7 +2,7 @@ import { Form,Container,Button} from 'react-bootstrap';
 import form from '../styles/form.module.css'
 export default function Inputs() {
     return (
-    <Container fluid className={form.formcontainer}>
+    <Container className={form.formcontainer}>
       <Form>
         <Form.Group controlId="formIncome">
             <Form.Label>Income</Form.Label>

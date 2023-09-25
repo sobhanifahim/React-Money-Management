@@ -1,18 +1,17 @@
-.baldiv{
+.gtwodiv{
     background-color:white;
-    height: 15vh;
-    width: 15vw;
+    height: 35vh;
+    width: 32vw;
     box-shadow: 0px 3px 10px grey;
     border-radius: 10px;
     text-align: center;
     margin-top: 2%;
-    
 }
 
+
 @media (max-width: 590px) {
-    .baldiv{
-        height: 15vh;
-        width: 40vw;
-        
-    }
+    .gtwodiv{
+        height: 35vh;
+        width: 86vw;
+     }
   }
