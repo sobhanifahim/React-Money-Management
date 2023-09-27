@@ -40,7 +40,7 @@ export default function Expensetable({formdata,onDeleteRow}) {
                  {formdata.map((d,index)=>(
                     <tr key={index}>
                         <td>{d.date}</td>
-                        <td>{d.description}</td>
+                        <td className={Table.desc}>{d.description}</td>
                         <td>{d.expenses}</td>
                         <td><button onClick={() => {handleDeleteRow(index)}} className={Table.btn}>x</button></td>
                     </tr>

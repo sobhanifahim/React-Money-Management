@@ -8,11 +8,30 @@
     margin-top: 2%;
     
 }
+.imgdiv{
+    display:flex;
+    margin-left:1vw;
+}
+img{
+    height:8vh;
+    width:4vw;
+}
+.text{
+    margin-left:1vw;
+    flex-wrap:wrap;
+    font-size: 1.2vw;
+}
 
 @media (max-width: 590px) {
     .baldiv{
         height: 15vh;
         width: 40vw;
         
+    }
+    .imgdiv{
+        margin-left:7vw;
+    }
+    .text{
+        font-size: 4vw;
     }
   }

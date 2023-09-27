@@ -29,7 +29,7 @@ export default function Contain() {
            </div>
            <div>
            <Graphone linedata={formdata}/>
-           <Graphtwo/>
+           <Graphtwo donutdata={formdata}/>
            </div>
         </Container>
         </div>

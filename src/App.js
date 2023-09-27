@@ -3,7 +3,7 @@ import Contain from './components/initDiv'
 function App() {
   return (
     <div className="App">
-      <h1 style={{textAlign:'center'}}>Money Management App</h1>
+      <h1 style={{textAlign:'center',fontFamily:'sans-serif'}}>Money Management App</h1>
         <Contain/>
     </div>
   );
